@@ -57,10 +57,10 @@ Ghi chép rework (nếu có):
 
 | Chỉ số trên 10 ảnh eval | Giá trị |
 |---|---:|
-| Precision | |
-| Recall | |
-| mAP50 | |
-| mAP50–95 | |
+| Precision | 0.6330 |
+| Recall | 0.5662 |
+| mAP50 | 0.6417 |
+| mAP50–95 | 0.4358 |
 
 *Dẫn link tương đối tới các thư mục kết quả: `assets/eval_predictions/` và `assets/yolo26_runs/`.*
 
