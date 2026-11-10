@@ -4,10 +4,10 @@
 
 - Họ tên: Nguyễn Thị Minh Trang
 - MSSV: 2A202603107
-- Email: 
+- Email: 2A202603107@vinuni.edu.vn
 - Lớp: K5-L2A
 - Link repo bài làm: https://github.com/MTrang0702/K5-L2A-DAY02-NguyenThiMinhTrang-2A202603107-ObjectDetection
-- Link Colab đã chạy: 
+- Link Colab đã chạy: https://colab.research.google.com/drive/1ZTCLpcvMQo-pN19cjNdM8JVcBFlQO9PY
 
 ## 2. Schema và mini guideline
 
