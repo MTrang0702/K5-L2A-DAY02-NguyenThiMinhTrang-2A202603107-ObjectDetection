@@ -62,7 +62,11 @@ Ghi chép rework (nếu có):
 | mAP50 | 0.6417 |
 | mAP50–95 | 0.4358 |
 
-*Dẫn link tương đối tới các thư mục kết quả: `assets/eval_predictions/` và `assets/yolo26_runs/`.*
+- Đường dẫn tương đối tới các thư mục kết quả đánh giá:
+  - Dự đoán trực quan 10 ảnh eval: [`assets/eval_predictions/visuals/`](assets/eval_predictions/visuals/)
+  - Biểu đồ chỉ số và confusion matrix: [`assets/yolo26_runs/vehicle_eval/`](assets/yolo26_runs/vehicle_eval/)
+  - Log huấn luyện 50 epoch: [`assets/yolo26_runs/vehicle_annotation/results.csv`](assets/yolo26_runs/vehicle_annotation/results.csv)
+  - File JSON chỉ số model: [`assets/model_eval_metrics.json`](assets/model_eval_metrics.json)
 
 ### Trả lời bốn câu hỏi cuối notebook:
 
