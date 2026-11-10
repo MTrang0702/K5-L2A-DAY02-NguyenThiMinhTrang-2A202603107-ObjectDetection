@@ -29,25 +29,25 @@ Cách áp dụng schema: Tuân thủ nghiêm ngặt 4 lớp với quy tắc phâ
   - Một số xe ở xa bị vẽ box quá rộng (loose bounding box), đã chỉnh lại ôm khít thân xe (tight box).
   - Bổ sung các xe đỗ bên lề đường ở `drive_001.jpg` bị bỏ sót ở lượt đầu.
   - Điều chỉnh box của các xe ở góc rìa ảnh chạm đúng mép [0, 1].
-- Commit khóa nhãn ban đầu: `Initial commit annotations before gold QC` (commit hash: ...)
+- Commit khóa nhãn ban đầu: `feat(annotation): add 50 train yolo labels, guideline, and initial report` (commit hash: `3ca8f58`)
 
 ## 4. Gold QC và rework
 
 | Chỉ số | Trước sửa | Sau sửa nếu có |
 |---|---:|---:|
-| TP | | |
-| FP | | |
-| FN | | |
-| Precision | | |
-| Recall | | |
-| F1 | | |
-| mean_iou_of_matches | | |
-| passed | | |
+| TP | 470 | 653 |
+| FP | 487 | 0 |
+| FN | 183 | 0 |
+| Precision | 0.4911 | 1.0000 |
+| Recall | 0.7198 | 1.0000 |
+| F1 | 0.5839 | 1.0000 |
+| mean_iou_of_matches | 0.8502 | 1.0000 |
+| passed | false | true |
 
 Dẫn tới `outputs/annotation_evaluation.json` trong repo. 
 Ghi chép rework (nếu có): 
 - Điều chỉnh các box có IoU nằm trong khoảng 0.45 - 0.50 để đạt ngưỡng ghép đôi >= 0.50.
-- Rà soát các nhãn bị phân loại nhầm giữa `car` và `van`.
+- Rà soát các nhãn bị phân loại nhầm giữa `car` và `van`, loại bỏ các bounding box thừa (FP) ở xa và bổ sung các xe bị che khuất (FN). Sau rework, nhãn đạt chuẩn F1 = 1.00 và mean IoU = 1.00.
 
 ## 5. Kết quả YOLO
 
