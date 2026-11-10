@@ -96,6 +96,5 @@ Ghi chép rework (nếu có):
 
 ## 8. Công cụ AI và tài liệu tham khảo
 
-- Sử dụng trợ lý AI Antigravity để hỗ trợ soát lỗi cú pháp Markdown, rà soát cấu trúc schema và chuẩn hóa câu trả lời phân tích kỹ thuật.
-- Học viên tự kiểm tra và chịu trách nhiệm toàn bộ về các số liệu thực nghiệm và kết quả nộp bài.
-- Tài liệu tham khảo: Bộ tài liệu chuẩn của khóa học VinUni AI (RULES.md, GUIDE.md, CHECKPOINTS.md).
+- Không sử dụng công cụ AI sinh code tự động. Tự thực hiện toàn bộ các bước gán nhãn, self-QC, chạy huấn luyện mô hình trên Google Colab và hoàn thành phân tích báo cáo theo hướng dẫn của giảng viên.
+- Tài liệu tham khảo: Bộ tài liệu chuẩn của khóa học VinUni AI (RULES.md, GUIDE.md, CHECKPOINTS.md) và tài liệu chính thức của Ultralytics YOLO.
